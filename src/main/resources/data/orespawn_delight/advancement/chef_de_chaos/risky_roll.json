@@ -1,0 +1,35 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/sushi_master",
+  "criteria": {
+    "ate_irukandji_roll": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:irukandji_roll"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_irukandji_roll"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:irukandji_roll"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.risky_roll.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.risky_roll.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

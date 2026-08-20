@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "orespawn_delight:block/butter_pat"
+  }
+}

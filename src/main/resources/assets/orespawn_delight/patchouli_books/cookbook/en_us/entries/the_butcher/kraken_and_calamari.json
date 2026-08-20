@@ -1,0 +1,18 @@
+{
+  "name": "Kraken & Calamari",
+  "icon": "orespawn_delight:kraken_tentacle",
+  "category": "orespawn_delight:the_butcher",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:kraken_tentacle",
+      "text": "Slay the $(4)Kraken$() and it finally gives up what everyone came for: $(item)Kraken Tentacles$(), each one wider than your boat used to be."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:calamari_rings",
+      "text": "One tentacle on the $(item)Cutting Board$() slices into three $(item)Calamari Rings$(), with a fair chance of a bonus ink sac. The rings fry up beautifully — see the $(l:orespawn_delight:the_kitchen/sushi_bar)Sushi Bar$() and $(l:orespawn_delight:the_kitchen/the_cooking_pot)Ink-Black Pasta$()."
+    }
+  ]
+}

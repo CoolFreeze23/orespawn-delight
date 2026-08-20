@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn:butter"
+    },
+    {
+      "item": "orespawn:butter"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "orespawn_delight:butter_pat"
+  }
+}

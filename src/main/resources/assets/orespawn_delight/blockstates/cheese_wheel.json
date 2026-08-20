@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "orespawn_delight:block/cheese_wheel"
+    },
+    "bites=1": {
+      "model": "orespawn_delight:block/cheese_wheel_slice1"
+    },
+    "bites=2": {
+      "model": "orespawn_delight:block/cheese_wheel_slice2"
+    },
+    "bites=3": {
+      "model": "orespawn_delight:block/cheese_wheel_slice3"
+    },
+    "bites=4": {
+      "model": "orespawn_delight:block/cheese_wheel_slice4"
+    },
+    "bites=5": {
+      "model": "orespawn_delight:block/cheese_wheel_slice5"
+    }
+  }
+}

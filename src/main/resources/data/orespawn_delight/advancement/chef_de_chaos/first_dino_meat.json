@@ -1,0 +1,37 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/root",
+  "criteria": {
+    "has_raw_dino_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:raw_dino_meat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_dino_meat"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:raw_dino_meat"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.first_dino_meat.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.first_dino_meat.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

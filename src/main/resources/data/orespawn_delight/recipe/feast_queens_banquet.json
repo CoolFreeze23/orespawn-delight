@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "orespawn:butter"
+    },
+    {
+      "item": "orespawn:salt"
+    },
+    {
+      "item": "orespawn:strawberry"
+    },
+    {
+      "item": "orespawn:quinoa"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:queens_banquet"
+  }
+}

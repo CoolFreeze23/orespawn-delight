@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "m": {
+      "tag": "c:drinks/milk"
+    },
+    "s": {
+      "item": "orespawn:strawberry"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sss",
+    "mOm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:strawberry_shortcake"
+  }
+}

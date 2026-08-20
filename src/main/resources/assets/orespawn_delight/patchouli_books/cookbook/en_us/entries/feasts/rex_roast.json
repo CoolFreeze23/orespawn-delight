@@ -1,0 +1,18 @@
+{
+  "name": "Rex Roast",
+  "icon": "orespawn_delight:rex_roast",
+  "category": "orespawn_delight:feasts",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:rex_roast",
+      "text": "A whole haunch of T-Rex, roasted and set out on the tray. Place it on any solid surface and carve — a feast holds four servings, and use-clicking takes one at a time."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Table Manners",
+      "text": "Feasts work like every Farmer's Delight centerpiece: the block remembers how much is left, and once the last serving is carved the empty tray breaks away.$(p)If a serving comes in a bowl or on bread, bring the container to the table — the roast will not lend you its dishes."
+    }
+  ]
+}

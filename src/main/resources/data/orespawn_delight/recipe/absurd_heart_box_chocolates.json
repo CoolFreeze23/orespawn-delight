@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn:heart"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "orespawn:strawberry"
+    },
+    {
+      "item": "orespawn:cherries"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:heart_box_chocolates"
+  }
+}

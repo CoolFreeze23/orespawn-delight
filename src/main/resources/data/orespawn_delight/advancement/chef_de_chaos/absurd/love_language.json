@@ -1,0 +1,37 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/root",
+  "criteria": {
+    "has_heart_box_chocolates": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:heart_box_chocolates"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_heart_box_chocolates"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:heart_box_chocolates"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.absurd.love_language.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.absurd.love_language.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

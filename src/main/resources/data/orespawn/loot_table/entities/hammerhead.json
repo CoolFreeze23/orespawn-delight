@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "minecraft:experience_bottle", "functions": [{"function": "minecraft:set_count", "count": 8}]}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "orespawn:experience_catcher", "functions": [{"function": "minecraft:set_count", "count": 10}]}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "orespawn:creeper_launcher", "functions": [{"function": "minecraft:set_count", "count": 16}]}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "orespawn:creeper_repellent", "functions": [{"function": "minecraft:set_count", "count": 4}]}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "orespawn_delight:raw_shark_meat", "functions": [{"function": "minecraft:set_count", "count": 6}]}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "orespawn:experience_tree_seed", "functions": [{"function": "minecraft:set_count", "count": 2}]}]
+    }
+  ]
+}

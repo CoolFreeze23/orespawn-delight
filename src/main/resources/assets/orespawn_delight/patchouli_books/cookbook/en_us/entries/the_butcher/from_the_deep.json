@@ -1,0 +1,23 @@
+{
+  "name": "From the Deep",
+  "icon": "orespawn_delight:raw_shark_meat",
+  "category": "orespawn_delight:the_butcher",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:raw_shark_meat",
+      "text": "Hammerheads no longer drop beef — a fact that should trouble you retroactively. $(item)Raw Shark Meat$() smokes into steaks or simmers into $(l:orespawn_delight:the_kitchen/the_cooking_pot)Shark Fin Soup$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:whale_blubber",
+      "text": "Whales yield great slabs of $(item)Whale Blubber$(). Render it into $(item)Whale Steak$() over any fire, or melt it down with milk and potato for a $(l:orespawn_delight:the_kitchen/the_cooking_pot)Whale Chowder$() worth the harpooning."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:raw_flounder_fillet",
+      "text": "Flounder and skate give up delicate $(item)Flounder Fillets$() — the base of Butter-Seared Flounder, Buttered Skate Wing, and the Flounder Roll. A knife in hand when the fish dies means the occasional extra fillet."
+    }
+  ]
+}

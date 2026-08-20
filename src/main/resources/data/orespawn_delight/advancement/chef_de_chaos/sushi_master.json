@@ -1,0 +1,66 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/cutting_edge",
+  "criteria": {
+    "crab_roll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:crab_roll"
+          }
+        ]
+      }
+    },
+    "flounder_roll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:flounder_roll"
+          }
+        ]
+      }
+    },
+    "irukandji_roll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:irukandji_roll"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crab_roll"
+    ],
+    [
+      "flounder_roll"
+    ],
+    [
+      "irukandji_roll"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:flounder_roll"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.sushi_master.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.sushi_master.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false,
+  "rewards": {
+    "experience": 100
+  }
+}

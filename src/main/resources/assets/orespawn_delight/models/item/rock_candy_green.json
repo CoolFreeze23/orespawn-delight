@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "orespawn_delight:item/rock_candy_green"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "minecraft:gold_nugget", "functions": [{"function": "minecraft:set_count", "count": 10}]}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:item", "name": "orespawn_delight:raw_dino_meat", "functions": [{"function": "minecraft:set_count", "count": 6}]}]
+    }
+  ]
+}

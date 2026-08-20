@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "item": "orespawn:cheese"
+    },
+    {
+      "item": "orespawn:butter"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:grilled_cheese"
+  }
+}

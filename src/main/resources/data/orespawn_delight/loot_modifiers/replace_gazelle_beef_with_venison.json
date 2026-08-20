@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "farmersdelight:replace_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "orespawn:gazelle"
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{OreSpawnTamed:1b}"
+        }
+      }
+    }
+  ],
+  "removed_item": "minecraft:beef",
+  "added_item": "twilightforest:raw_venison",
+  "count": 1
+}

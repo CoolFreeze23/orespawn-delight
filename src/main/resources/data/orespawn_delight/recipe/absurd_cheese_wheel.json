@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "orespawn:cheese"
+    },
+    "s": {
+      "item": "orespawn:salt"
+    }
+  },
+  "pattern": [
+    " c ",
+    "csc",
+    " c "
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:cheese_wheel"
+  }
+}

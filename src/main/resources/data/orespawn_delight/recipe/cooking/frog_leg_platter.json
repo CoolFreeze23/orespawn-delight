@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "orespawn_delight:raw_frog_legs"
+    },
+    {
+      "item": "orespawn_delight:raw_frog_legs"
+    },
+    {
+      "item": "orespawn:butter"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:frog_leg_platter"
+  }
+}

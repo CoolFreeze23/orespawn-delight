@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn_delight:dino_steak"
+    },
+    {
+      "item": "orespawn_delight:dino_steak"
+    },
+    {
+      "item": "orespawn_delight:dino_steak"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "orespawn:butter"
+    },
+    {
+      "item": "orespawn:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:rex_roast"
+  }
+}

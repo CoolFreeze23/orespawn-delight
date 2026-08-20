@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "orespawn:dead_irukandji"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "orespawn_delight:irukandji_roll"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "The Dino Cut",
+  "icon": "orespawn_delight:raw_dino_meat",
+  "category": "orespawn_delight:the_butcher",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:raw_dino_meat",
+      "text": "The T-Rex, Alosaurus, Baryonyx, and Pointysaurus all yield $(item)Raw Dino Meat$() now — an honest cut from an honest kill, instead of beef that fell out of a lizard."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "orespawn_delight:dino_steak",
+      "text": "Furnace, smoker, campfire, or the top of a stove — any heat turns a slab of dino into a $(item)Dino Steak$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mince It",
+      "text": "Lay Raw Dino Meat on a $(item)Cutting Board$() and take a $(l:orespawn_delight:the_butcher/tigers_eye_knife)knife$() to it for two portions of $(item)Minced Dino$().$(p)Minced Dino cooks into a $(item)Dino Patty$() over any fire — the foundation of the $(l:orespawn_delight:the_kitchen/burgers_and_sandwiches)Mobzilla Burger$() and the humble Dino Dog alike."
+    }
+  ]
+}

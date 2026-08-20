@@ -1,0 +1,23 @@
+{
+  "name": "Birds & Frogs",
+  "icon": "orespawn_delight:raw_ostrich",
+  "category": "orespawn_delight:the_butcher",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:raw_ostrich",
+      "text": "The ostrich is livestock that can outrun a horse and disagrees with being livestock. It dresses out into $(item)Raw Ostrich$() — treat it like raw chicken, including the part where eating it raw is a mistake."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:ostrich_egg",
+      "text": "Sometimes an ostrich leaves behind an $(item)Ostrich Egg$() the size of your head. One egg, some butter, some cheese: the $(item)Ostrich Egg Omelette$() feeds a family. Cassowaries, meanwhile, provide the drumsticks."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:raw_frog_legs",
+      "text": "Frogs finally drop $(item)Raw Frog Legs$() — the most respectable delicacy in this entire book. Butter them into a $(l:orespawn_delight:the_kitchen/salads_and_sears)Frog Leg Platter$() and pretend you run a bistro."
+    }
+  ]
+}

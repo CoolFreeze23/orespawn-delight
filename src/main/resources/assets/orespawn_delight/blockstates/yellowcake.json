@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "orespawn_delight:block/yellowcake"
+    },
+    "bites=1": {
+      "model": "orespawn_delight:block/yellowcake_slice1"
+    },
+    "bites=2": {
+      "model": "orespawn_delight:block/yellowcake_slice2"
+    },
+    "bites=3": {
+      "model": "orespawn_delight:block/yellowcake_slice3"
+    },
+    "bites=4": {
+      "model": "orespawn_delight:block/yellowcake_slice4"
+    },
+    "bites=5": {
+      "model": "orespawn_delight:block/yellowcake_slice5"
+    },
+    "bites=6": {
+      "model": "orespawn_delight:block/yellowcake_slice6"
+    }
+  }
+}

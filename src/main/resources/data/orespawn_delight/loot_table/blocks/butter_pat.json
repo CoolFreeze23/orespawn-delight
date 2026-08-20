@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn_delight:butter_pat"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn_delight:blocks/butter_pat"
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn_delight:dino_stew",
+    "orespawn_delight:whale_chowder",
+    "orespawn_delight:shark_fin_soup",
+    "orespawn_delight:jellyfish_salad",
+    "orespawn_delight:quinoa_bowl",
+    "orespawn_delight:ink_black_pasta",
+    "orespawn_delight:frog_leg_platter",
+    "orespawn_delight:butter_seared_flounder",
+    "orespawn_delight:buttered_skate_wing",
+    "orespawn_delight:ostrich_egg_omelette",
+    "orespawn_delight:cassowary_drumstick",
+    "orespawn_delight:venison_medallions"
+  ]
+}

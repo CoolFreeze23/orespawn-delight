@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "orespawn:kraken"
+      }
+    }
+  ],
+  "item": "orespawn_delight:kraken_tentacle",
+  "count": 2
+}

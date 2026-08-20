@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn:dead_irukandji"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "orespawn:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:irukandji_shooter"
+  }
+}

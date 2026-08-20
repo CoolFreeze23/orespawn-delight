@@ -1,0 +1,74 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/root",
+  "criteria": {
+    "planted_seed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "orespawn:corn_seed",
+                "orespawn:radish_seed",
+                "orespawn:rice_seed",
+                "orespawn:quinoa_seed",
+                "orespawn:tomato_seed",
+                "orespawn:lettuce_seed",
+                "orespawn:strawberry_seed",
+                "orespawn:butterfly_seed",
+                "orespawn:moth_seed",
+                "orespawn:mosquito_seed",
+                "orespawn:firefly_seed",
+                "orespawn:apple_tree_seed",
+                "orespawn:cherry_tree_seed",
+                "orespawn:peach_tree_seed"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "harvested_crop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orespawn:strawberry",
+              "orespawn:radish",
+              "orespawn:rice",
+              "orespawn:corn_cob",
+              "orespawn:quinoa",
+              "orespawn:tomato",
+              "orespawn:lettuce"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "planted_seed",
+      "harvested_crop"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn:strawberry_seed"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.green_thumb.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.green_thumb.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

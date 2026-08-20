@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "entries": [
+    "orespawn_delight:add_kraken_tentacle",
+    "orespawn_delight:add_kraken_tentacle_bonus_1",
+    "orespawn_delight:add_kraken_tentacle_bonus_2",
+    "orespawn_delight:add_frog_legs",
+    "orespawn_delight:add_raw_ostrich_to_ostrich",
+    "orespawn_delight:add_ostrich_egg_to_ostrich",
+    "orespawn_delight:replace_gazelle_beef_with_venison",
+    "orespawn_delight:scavenging_fillet_from_flounder",
+    "orespawn_delight:scavenging_cooked_fillet_from_flounder",
+    "orespawn_delight:scavenging_shark_meat_from_hammerhead",
+    "orespawn_delight:scavenging_shark_steak_from_hammerhead"
+  ]
+}

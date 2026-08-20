@@ -1,0 +1,18 @@
+{
+  "name": "The Orchard",
+  "icon": "orespawn:apple_tree_seed",
+  "category": "orespawn_delight:field_guide",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Instant Trees",
+      "text": "$(item)Apple$(), $(item)Cherry$(), and $(item)Peach Tree Seeds$() raise a full fruit tree on grass or dirt the moment they're planted — OreSpawn horticulture has never believed in waiting.$(p)Craft tree seeds from the fruit itself, and the orchard pays its own way forever."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What Falls From Above",
+      "text": "Fruit leaves ripen on their own time and drop their bounty below: cherries and peaches from their trees, and from apple leaves — usually apples, rarely $(item)golden$() ones, and once in a very long while something $(item)enchanted$() or stranger.$(p)Plant a row, walk away, come back to a cookbook's worth of fillings."
+    }
+  ]
+}

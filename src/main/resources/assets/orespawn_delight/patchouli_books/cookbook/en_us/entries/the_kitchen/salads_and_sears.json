@@ -1,0 +1,23 @@
+{
+  "name": "Butter & the Pan",
+  "icon": "orespawn_delight:butter_seared_flounder",
+  "category": "orespawn_delight:the_kitchen",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Butter Doctrine",
+      "text": "OreSpawn churns its own $(item)Butter$() — two milk buckets make four — and this kitchen runs on it. Every dish on this spread comes out of the $(item)Cooking Pot$() with butter in the slots: check the recipe viewer for exact measures."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:butter_seared_flounder",
+      "text": "$(item)Butter-Seared Flounder$() — fillet, butter, heat. Three ingredients, no apologies. Add salt and it becomes $(item)Buttered Skate Wing$(), the brown-butter classic."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:frog_leg_platter",
+      "text": "$(item)Frog Leg Platter$() — two pairs of legs, butter, greens. Also from the pot: the $(item)Ostrich Egg Omelette$(), the salted $(item)Cassowary Drumstick$(), and strawberry-glazed $(item)Venison Medallions$()."
+    }
+  ]
+}

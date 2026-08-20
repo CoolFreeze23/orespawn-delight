@@ -1,0 +1,43 @@
+{
+  "name": "The Cooking Pot",
+  "icon": "orespawn_delight:whale_chowder",
+  "category": "orespawn_delight:the_kitchen",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Simmer Everything",
+      "text": "The Farmer's Delight $(item)Cooking Pot$() does the heavy lifting for every soup, stew, and simmered dish in this chapter: set it over heat, fill the slots, wait for the bubbling.$(p)Pot recipes are a craft of their own and won't fit on these pages — look any dish up in the recipe viewer to see its exact ingredients. The best of the menu follows."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:dino_stew",
+      "text": "$(item)Dino Stew$() — dino meat, carrot, potato. The beef stew of a bolder food chain. Bowls come back when you're done; gratitude does not."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:whale_chowder",
+      "text": "$(item)Whale Chowder$() — blubber, milk, potato, onion. Thick enough to stand a spoon in, warming enough to justify the whole voyage."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:shark_fin_soup",
+      "text": "$(item)Shark Fin Soup$() — shark meat and onion, thickened with Triffid green goo. The goo is doing more work in this recipe than anyone wants to discuss."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:ink_black_pasta",
+      "text": "$(item)Ink-Black Pasta$() — pasta, calamari, tomato, and a generous measure of the Kraken's own ink. Finally, a use for the hundred-odd ink sacs it left you."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:jellyfish_salad",
+      "text": "$(item)Jellyfish Salad$() — irukandji, greens, radish. Chilled, crisp, and only mildly threatening once cooked."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:quinoa_bowl",
+      "text": "$(item)Quinoa Bowl$() — Crystal Dimension quinoa with vegetables and greens. The single healthiest object in this cookbook. It will not be lonely for company."
+    }
+  ]
+}

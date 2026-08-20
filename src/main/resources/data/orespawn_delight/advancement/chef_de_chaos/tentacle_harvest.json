@@ -1,0 +1,37 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/root",
+  "criteria": {
+    "has_kraken_tentacle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:kraken_tentacle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kraken_tentacle"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:kraken_tentacle"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.tentacle_harvest.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.tentacle_harvest.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn_delight:calamari_rings"
+    },
+    {
+      "item": "orespawn_delight:calamari_rings"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "orespawn_delight:kraken_nigiri"
+  }
+}

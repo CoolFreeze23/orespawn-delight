@@ -1,0 +1,13 @@
+{
+  "item.orespawn_delight.chum_bucket": "Chum Bucket",
+  "entity.orespawn_delight.chum": "Chum",
+  "tooltip.orespawn_delight.chum_bucket": "Hurl into the ocean. Everything with teeth RSVPs to the splash.",
+
+  "message.orespawn_delight.companion_thanks.1": "%s blushes: Chocolates! With a REAL heart in the middle!",
+  "message.orespawn_delight.companion_thanks.2": "%s beams: You remembered! I'm keeping the box forever.",
+  "message.orespawn_delight.companion_thanks.3": "%s grins: Ooh, the fancy ones! Wait right there...",
+
+  "message.orespawn_delight.companion_cookback.1": "%s hands you something warm: I made this for you!",
+  "message.orespawn_delight.companion_cookback.2": "%s proudly presents dinner: Made it myself. Mostly.",
+  "message.orespawn_delight.companion_cookback.3": "%s slides you a plate: Chef says hi. I'm the chef."
+}

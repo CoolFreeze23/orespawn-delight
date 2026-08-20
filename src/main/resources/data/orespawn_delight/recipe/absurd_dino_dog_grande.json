@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn:corn_dog"
+    },
+    {
+      "item": "orespawn:corn_dog"
+    },
+    {
+      "item": "orespawn:corn_dog"
+    },
+    {
+      "item": "orespawn:cooked_bacon"
+    },
+    {
+      "item": "orespawn:trex_tooth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:dino_dog_grande"
+  }
+}

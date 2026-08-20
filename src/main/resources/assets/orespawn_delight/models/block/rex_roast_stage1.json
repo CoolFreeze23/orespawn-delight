@@ -1,0 +1,593 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "tray": "farmersdelight:block/tray",
+    "tray_bottom": "farmersdelight:block/tray_bottom",
+    "leftovers": "orespawn_delight:block/rex_roast_leftovers",
+    "main": "orespawn_delight:block/rex_roast",
+    "details": "orespawn_delight:block/rex_roast_details",
+    "side_dish": "orespawn_delight:block/rex_roast_side_dish",
+    "particle": "orespawn_delight:block/rex_roast"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "east": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "west": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#leftovers"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tray_bottom",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "north_edge",
+      "from": [
+        2,
+        1,
+        1
+      ],
+      "to": [
+        14,
+        2,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            14,
+            1
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "south_edge",
+      "from": [
+        2,
+        1,
+        14
+      ],
+      "to": [
+        14,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            2,
+            13,
+            14,
+            14
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "west_edge",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        2,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            2,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            1,
+            0,
+            2,
+            14
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "east_edge",
+      "from": [
+        14,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            2,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            14,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            14,
+            0,
+            15,
+            14
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "body",
+      "from": [
+        4,
+        1,
+        7
+      ],
+      "to": [
+        12,
+        8,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            8,
+            16,
+            15
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            8,
+            0,
+            16,
+            7
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            8,
+            15
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            8,
+            15
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            6
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "bone_knob",
+      "from": [
+        6,
+        3,
+        0
+      ],
+      "to": [
+        11,
+        7,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            5,
+            4
+          ],
+          "texture": "#details"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            5,
+            4
+          ],
+          "texture": "#details"
+        },
+        "east": {
+          "uv": [
+            10,
+            0,
+            12,
+            4
+          ],
+          "texture": "#details"
+        },
+        "west": {
+          "uv": [
+            10,
+            0,
+            12,
+            4
+          ],
+          "texture": "#details"
+        },
+        "up": {
+          "uv": [
+            5,
+            0,
+            10,
+            2
+          ],
+          "texture": "#details"
+        },
+        "down": {
+          "uv": [
+            5,
+            0,
+            10,
+            2
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "bone_shaft",
+      "from": [
+        7,
+        4,
+        2
+      ],
+      "to": [
+        10,
+        6,
+        7
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            8,
+            5,
+            10
+          ],
+          "texture": "#details"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            5,
+            10
+          ],
+          "texture": "#details"
+        },
+        "up": {
+          "uv": [
+            0,
+            10,
+            5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "#details"
+        },
+        "down": {
+          "uv": [
+            0,
+            10,
+            5,
+            13
+          ],
+          "rotation": 90,
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "west_slices",
+      "from": [
+        2,
+        1,
+        8
+      ],
+      "to": [
+        4,
+        3,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            0,
+            7,
+            2
+          ],
+          "texture": "#side_dish"
+        },
+        "south": {
+          "uv": [
+            5,
+            0,
+            7,
+            2
+          ],
+          "texture": "#side_dish"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            5,
+            2
+          ],
+          "texture": "#side_dish"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            5,
+            2
+          ],
+          "texture": "#side_dish"
+        },
+        "up": {
+          "uv": [
+            0,
+            2,
+            5,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#side_dish"
+        }
+      }
+    },
+    {
+      "name": "east_herbs",
+      "from": [
+        12,
+        1,
+        3
+      ],
+      "to": [
+        14,
+        2,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            6,
+            10,
+            7
+          ],
+          "texture": "#details"
+        },
+        "south": {
+          "uv": [
+            8,
+            6,
+            10,
+            7
+          ],
+          "texture": "#details"
+        },
+        "east": {
+          "uv": [
+            8,
+            6,
+            12,
+            7
+          ],
+          "texture": "#details"
+        },
+        "west": {
+          "uv": [
+            8,
+            6,
+            12,
+            7
+          ],
+          "texture": "#details"
+        },
+        "up": {
+          "uv": [
+            8,
+            4,
+            12,
+            6
+          ],
+          "rotation": 90,
+          "texture": "#details"
+        }
+      }
+    }
+  ]
+}

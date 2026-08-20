@@ -1,0 +1,21 @@
+{
+  "name": "Sushi Bar",
+  "icon": "orespawn_delight:kraken_nigiri",
+  "category": "orespawn_delight:the_kitchen",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:kraken_nigiri",
+      "recipe2": "orespawn_delight:flounder_roll",
+      "title": "Omakase",
+      "text": "Calamari over cooked rice makes $(item)Kraken Nigiri$(). Flounder wrapped in kelp and rice makes the $(item)Flounder Roll$(). Both recipes serve two."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:irukandji_roll",
+      "title": "The Gamble",
+      "text": "The $(item)Irukandji Roll$() is jellyfish sushi, prepared honestly: most bites are delicious, and roughly one in three remembers it used to be venomous. Order it anyway. Fortune favors the hungry."
+    }
+  ]
+}

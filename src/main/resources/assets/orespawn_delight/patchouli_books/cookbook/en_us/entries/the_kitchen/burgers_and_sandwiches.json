@@ -1,0 +1,29 @@
+{
+  "name": "Burgers & Sandwiches",
+  "icon": "orespawn_delight:mobzilla_burger",
+  "category": "orespawn_delight:the_kitchen",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:mobzilla_burger",
+      "recipe2": "orespawn_delight:grilled_cheese",
+      "title": "The Heavyweights",
+      "text": "A dino patty with cheese, tomato, and onion earns the name $(item)Mobzilla Burger$(). The $(item)Grilled Cheese$() asks only bread, cheese, and butter."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:shark_sandwich",
+      "recipe2": "orespawn_delight:peacock_club_sandwich",
+      "title": "Stacked High",
+      "text": "Shark steak on bread with greens and tomato — or go full club: peacock, bacon, the works."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:crabby_patty_deluxe",
+      "recipe2": "orespawn_delight:crab_roll",
+      "title": "Crab Country",
+      "text": "The classic crabby patty, upgraded with cheese and onion until it deserves the word $(item)Deluxe$(). The $(item)Crab Roll$() is its handheld cousin."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "orespawn:sea_viper_tongue"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:sea_viper_skewer"
+  }
+}

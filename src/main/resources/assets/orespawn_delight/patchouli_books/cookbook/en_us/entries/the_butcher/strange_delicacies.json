@@ -1,0 +1,18 @@
+{
+  "name": "Strange Delicacies",
+  "icon": "orespawn:dead_irukandji",
+  "category": "orespawn_delight:the_butcher",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Eat the Unthinkable",
+      "text": "Not everything on the menu moos. $(item)Dead Irukandji$() — the jellyfish that kills you — makes a genuinely refreshing salad. $(item)Dead Stink Bugs$() fry crisp in butter. A $(item)Sea Viper Tongue$() on a stick is either a delicacy or a dare; the viper is no longer in a position to clarify."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Borrowed Venison",
+      "text": "Gazelles now yield proper $(item)venison$() — the same cut the Twilight Forest deer carry, so every jerky and roast recipe that takes venison takes ours.$(p)Seared with strawberries and butter, it becomes $(item)Venison Medallions$(): the fanciest thing you can make from an animal that spent its life practicing running away."
+    }
+  ]
+}

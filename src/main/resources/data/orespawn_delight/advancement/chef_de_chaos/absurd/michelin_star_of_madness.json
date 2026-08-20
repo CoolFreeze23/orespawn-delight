@@ -1,0 +1,309 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/five_star_chaos",
+  "criteria": {
+    "ate_ray_seared_steak": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:ray_seared_steak"
+        }
+      }
+    },
+    "ate_red_cow_energy_drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:red_cow_energy_drink"
+        }
+      }
+    },
+    "ate_hammy": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "orespawn_delight:hammy",
+            "orespawn_delight:hammy_4",
+            "orespawn_delight:hammy_3",
+            "orespawn_delight:hammy_2",
+            "orespawn_delight:hammy_1"
+          ]
+        }
+      }
+    },
+    "ate_rock_candy_blue": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:rock_candy_blue"
+        }
+      }
+    },
+    "ate_rock_candy_red": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:rock_candy_red"
+        }
+      }
+    },
+    "ate_rock_candy_green": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:rock_candy_green"
+        }
+      }
+    },
+    "ate_rock_candy_purple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:rock_candy_purple"
+        }
+      }
+    },
+    "ate_tnt_rock_candy": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:tnt_rock_candy"
+        }
+      }
+    },
+    "ate_burp_back_chili": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:burp_back_chili"
+        }
+      }
+    },
+    "ate_lava_eel_hotpot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:lava_eel_hotpot"
+        }
+      }
+    },
+    "ate_basilisk_ramen": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:basilisk_ramen"
+        }
+      }
+    },
+    "ate_vortex_dango": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:vortex_dango"
+        }
+      }
+    },
+    "ate_cliff_racer_hot_wings": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:cliff_racer_hot_wings"
+        }
+      }
+    },
+    "ate_jumpy_bug_gummies": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:jumpy_bug_gummies"
+        }
+      }
+    },
+    "ate_fairy_floss": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:fairy_floss"
+        }
+      }
+    },
+    "ate_irukandji_shooter": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:irukandji_shooter"
+        }
+      }
+    },
+    "ate_luna_moth_macaron": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:luna_moth_macaron"
+        }
+      }
+    },
+    "ate_pot_roast_cut": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:pot_roast_cut"
+        }
+      }
+    },
+    "held_caramel_mash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:caramel_mash"
+          }
+        ]
+      }
+    },
+    "held_dino_dog_grande": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:dino_dog_grande"
+          }
+        ]
+      }
+    },
+    "held_heart_box_chocolates": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:heart_box_chocolates"
+          }
+        ]
+      }
+    },
+    "held_chum_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:chum_bucket"
+          }
+        ]
+      }
+    },
+    "held_yellowcake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:yellowcake"
+          }
+        ]
+      }
+    },
+    "held_cheese_wheel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:cheese_wheel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_ray_seared_steak"
+    ],
+    [
+      "ate_red_cow_energy_drink"
+    ],
+    [
+      "ate_hammy"
+    ],
+    [
+      "ate_rock_candy_blue"
+    ],
+    [
+      "ate_rock_candy_red"
+    ],
+    [
+      "ate_rock_candy_green"
+    ],
+    [
+      "ate_rock_candy_purple"
+    ],
+    [
+      "ate_tnt_rock_candy"
+    ],
+    [
+      "ate_burp_back_chili"
+    ],
+    [
+      "ate_lava_eel_hotpot"
+    ],
+    [
+      "ate_basilisk_ramen"
+    ],
+    [
+      "ate_vortex_dango"
+    ],
+    [
+      "ate_cliff_racer_hot_wings"
+    ],
+    [
+      "ate_jumpy_bug_gummies"
+    ],
+    [
+      "ate_fairy_floss"
+    ],
+    [
+      "ate_irukandji_shooter"
+    ],
+    [
+      "ate_luna_moth_macaron"
+    ],
+    [
+      "ate_pot_roast_cut"
+    ],
+    [
+      "held_caramel_mash"
+    ],
+    [
+      "held_dino_dog_grande"
+    ],
+    [
+      "held_heart_box_chocolates"
+    ],
+    [
+      "held_chum_bucket"
+    ],
+    [
+      "held_yellowcake"
+    ],
+    [
+      "held_cheese_wheel"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:tnt_rock_candy"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.absurd.michelin_star_of_madness.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.absurd.michelin_star_of_madness.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false,
+  "rewards": {
+    "experience": 500
+  }
+}

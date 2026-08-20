@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:grilled_cheese"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.root.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.root.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "orespawn_delight:textures/item/dino_steak.png"
+  },
+  "sends_telemetry_event": false
+}

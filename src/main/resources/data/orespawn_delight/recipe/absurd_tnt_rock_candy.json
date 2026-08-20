@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "orespawn:rock_tnt"
+      },
+      {
+        "item": "orespawn:rock_crystal_tnt"
+      }
+    ],
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:tnt_rock_candy"
+  }
+}

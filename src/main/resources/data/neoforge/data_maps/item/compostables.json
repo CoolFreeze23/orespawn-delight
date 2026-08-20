@@ -1,0 +1,82 @@
+{
+  "values": {
+    "orespawn:corn_seed": {
+      "chance": 0.3
+    },
+    "orespawn:quinoa_seed": {
+      "chance": 0.3
+    },
+    "orespawn:tomato_seed": {
+      "chance": 0.3
+    },
+    "orespawn:lettuce_seed": {
+      "chance": 0.3
+    },
+    "orespawn:strawberry_seed": {
+      "chance": 0.3
+    },
+    "orespawn:radish_seed": {
+      "chance": 0.3
+    },
+    "orespawn:rice_seed": {
+      "chance": 0.3
+    },
+    "orespawn:butterfly_seed": {
+      "chance": 0.3
+    },
+    "orespawn:moth_seed": {
+      "chance": 0.3
+    },
+    "orespawn:mosquito_seed": {
+      "chance": 0.3
+    },
+    "orespawn:firefly_seed": {
+      "chance": 0.3
+    },
+    "orespawn:apple_tree_seed": {
+      "chance": 0.3
+    },
+    "orespawn:cherry_tree_seed": {
+      "chance": 0.3
+    },
+    "orespawn:peach_tree_seed": {
+      "chance": 0.3
+    },
+    "orespawn:corn_cob": {
+      "chance": 0.65
+    },
+    "orespawn:quinoa": {
+      "chance": 0.65
+    },
+    "orespawn:tomato": {
+      "chance": 0.65
+    },
+    "orespawn:lettuce": {
+      "chance": 0.65
+    },
+    "orespawn:strawberry": {
+      "chance": 0.65
+    },
+    "orespawn:radish": {
+      "chance": 0.65
+    },
+    "orespawn:rice": {
+      "chance": 0.65
+    },
+    "orespawn:cherries": {
+      "chance": 0.65
+    },
+    "orespawn:peach": {
+      "chance": 0.65
+    },
+    "orespawn:crystal_apple": {
+      "chance": 0.65
+    },
+    "orespawn_delight:grilled_cheese": {
+      "chance": 0.85
+    },
+    "orespawn_delight:strawberry_shortcake": {
+      "chance": 1.0
+    }
+  }
+}

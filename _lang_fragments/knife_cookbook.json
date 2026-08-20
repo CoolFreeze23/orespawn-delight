@@ -1,0 +1,7 @@
+{
+  "item.orespawn_delight.tigers_eye_knife": "Tiger's Eye Knife",
+
+  "book.orespawn_delight.cookbook.name": "The OreSpawn Cookbook",
+  "book.orespawn_delight.cookbook.subtitle": "Field Notes of a Very Brave Chef",
+  "book.orespawn_delight.cookbook.landing": "Everything out there is trying to eat you. This book is about returning the favor.$(p)From the $(l:orespawn_delight:the_butcher/the_dino_cut)first dino cut$() to the $(l:orespawn_delight:feasts/queens_banquet)Queen's own banquet$() — sharpen a knife, light the stove, and cook what the world throws at you."
+}

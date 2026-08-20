@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#c:foods/cooked_dino_meat",
+    "#c:foods/cooked_ostrich",
+    "#c:foods/cooked_shark_meat",
+    "orespawn_delight:whale_steak"
+  ]
+}

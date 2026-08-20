@@ -1,0 +1,92 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/soup_kitchen",
+  "criteria": {
+    "grilled_cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:grilled_cheese"
+          }
+        ]
+      }
+    },
+    "shark_sandwich": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:shark_sandwich"
+          }
+        ]
+      }
+    },
+    "peacock_club_sandwich": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:peacock_club_sandwich"
+          }
+        ]
+      }
+    },
+    "crabby_patty_deluxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:crabby_patty_deluxe"
+          }
+        ]
+      }
+    },
+    "mobzilla_burger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:mobzilla_burger"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "grilled_cheese"
+    ],
+    [
+      "shark_sandwich"
+    ],
+    [
+      "peacock_club_sandwich"
+    ],
+    [
+      "crabby_patty_deluxe"
+    ],
+    [
+      "mobzilla_burger"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:mobzilla_burger"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.sandwich_artist.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.sandwich_artist.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false,
+  "rewards": {
+    "experience": 100
+  }
+}

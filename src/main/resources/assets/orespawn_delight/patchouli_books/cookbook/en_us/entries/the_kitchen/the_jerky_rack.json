@@ -1,0 +1,20 @@
+{
+  "name": "The Jerky Rack",
+  "icon": "orespawn_delight:salted_jerky",
+  "category": "orespawn_delight:the_kitchen",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:salted_jerky",
+      "recipe2": "orespawn_delight:irradiated_jerky",
+      "title": "Preservation Science",
+      "text": "Any raw meat plus OreSpawn $(item)Salt$() cures into $(item)Salted Jerky$() — trail food that never spoils."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Warning Label",
+      "text": "Rub a $(item)Uranium Nugget$() into the jerky and it becomes $(item)Irradiated Jerky$(): you will glow, you will regenerate, and you will not ask follow-up questions.$(p)The recipe book calls this cuisine. The Geiger counter calls it a snack that answers back."
+    }
+  ]
+}

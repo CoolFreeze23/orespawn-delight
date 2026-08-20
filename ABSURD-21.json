@@ -1,0 +1,191 @@
+[
+ {
+  "name": "Ray-Seared Steak",
+  "lens": "mod_absurdity",
+  "concept": "Steak cooked by shooting it with the Ray Gun: a laser_ball hitting a dropped raw beef item (or killing a cow) zaps it into a crispy, faintly humming steak with laser grill-marks. No furnace was ever consulted.",
+  "ingredients": "minecraft:beef + orespawn:ray_gun (verified; its orespawn:laser_ball projectile does the cooking — obtained via event, not crafting)",
+  "effect_or_behavior": "Projectile-hit event handler converts the item entity/cow drop. Eating grants minecraft:glowing 15s ('still irradiated from the sear'); nutrition slightly above cooked beef.",
+  "feasibility": "light-code",
+  "score_reason": "The joke every OreSpawn player already made in their head, finally implemented. First food acquired by weapon instead of heat — cheap handler, huge identity value as the expansion's poster item."
+ },
+ {
+  "name": "Yellowcake",
+  "lens": "mod_absurdity",
+  "concept": "A literal uranium cake — the real nuclear-industry pun made edible. Bright green-yellow, gently smoking, placeable and eaten in slices like the ported pizza block.",
+  "ingredients": "orespawn:uranium_nugget + orespawn:butter + minecraft:wheat + minecraft:egg + minecraft:sugar (all verified)",
+  "effect_or_behavior": "Placeable cake block (pizza-block precedent already shipped in the port). Each slice: minecraft:glowing 60s + good saturation; 3+ slices inside 30s adds brief minecraft:nausea ('acute dose'). Green particles while placed.",
+  "feasibility": "light-code",
+  "score_reason": "Two-layer joke (uranium-in-everything canon + the real yellowcake pun), a party block for servers, and it extends the radiation-cuisine shelf the shipped irradiated jerky started. Cake blocks are a solved pattern."
+ },
+ {
+  "name": "Red Cow Energy Drink",
+  "lens": "mod_absurdity",
+  "concept": "Milk from OreSpawn's red_cow, canned. Red Cow gives you wings. That is the entire product, ad campaign, and joke.",
+  "ingredients": "minecraft:milk_bucket + orespawn:strawberry + minecraft:sugar + minecraft:glass_bottle (all verified; red_cow entity verified for flavor)",
+  "effect_or_behavior": "Drink: minecraft:jump_boost II 60s + minecraft:slow_falling 20s + minecraft:speed I 60s. Deliberately does NOT clear effects despite being milk ('De-milkified for your convenience'). Bottle returned via usingConvertsTo.",
+  "feasibility": "item-only",
+  "score_reason": "The red_cow has begged for this pun for a decade; instant recognition, effects that deliver the slogan, and zero code. The best fun-per-effort ratio in the pool."
+ },
+ {
+  "name": "The Hammy",
+  "lens": "mod_absurdity",
+  "concept": "A cured ham hock the size and shape of Big Bertha — resurrecting 'Hammy', the real unported Bertha variant (orig OreSpawnMain.java:1648, a Hammerhead drop, confirmed TECH-DEBT in MODERNIZATION_NOTES.md MOD-008) as food. It is dinner. It is technically also a weapon.",
+  "ingredients": "minecraft:cooked_porkchop x4 + orespawn:bertha_handle + orespawn:salt (all verified)",
+  "effect_or_behavior": "Multi-bite sword-shaped food: 4 attack damage via minecraft:attribute_modifiers component, edible in 5 bites via a usingConvertsTo chain (hammy_5 -> hammy_4 -> ...), each bite a full porkchop's nutrition + minecraft:strength I 10s, with a per-stage texture losing a visible chunk.",
+  "feasibility": "light-code",
+  "score_reason": "Verified deepest cut in the list — it un-backlogs a canon item the port never shipped, as a gag. Fighting a mob with dinner and eating your weapon mid-fight is peak OreSpawn; the item-chain trick keeps it data-driven."
+ },
+ {
+  "name": "TNT Rock Candy",
+  "lens": "mod_absurdity + power_fantasy (merged duplicate)",
+  "concept": "Rock candy from OreSpawn's actual throwable rock family — blue, red, green, purple — plus the forbidden flavor crystallized from TNT rocks. The TNT flavor settles your stomach exactly once, explosively.",
+  "ingredients": "one of orespawn:rock_blue / rock_red / rock_green / rock_purple (plain flavors) or orespawn:rock_tnt / orespawn:rock_crystal_tnt (the good one) + minecraft:sugar + minecraft:stick (all verified)",
+  "effect_or_behavior": "Color variants: item-only candy, minecraft:speed I 20s sugar rush. TNT variant: ~2s after eating, a harmless burp explosion via Level.explode power 1.5, fire=false, ExplosionInteraction.NONE (sound + smoke + shove only), then minecraft:wind_charged 60s + minecraft:strength I 60s.",
+  "feasibility": "light-code",
+  "score_reason": "Merged both lenses' versions into the strongest form: 'TNT everything' is core doctrine, wind_charged is the perfect underused 1.21 payoff, and the burp that launches nearby chickens is a physical-comedy routine in one line of code."
+ },
+ {
+  "name": "Stinky's Burp-Back Chili",
+  "lens": "living_world (merged with mod_absurdity chili + power_fantasy burp-bowl)",
+  "concept": "The house chili of the Stinky House, potent enough to make you burp like Stinky himself — and revolting enough that a tamed Stinky considers it fine dining. Eat the bowl, or serve it to him.",
+  "ingredients": "orespawn:dead_stink_bug + orespawn:tomato + orespawn:corn_cob + orespawn:salt + minecraft:bowl (all verified)",
+  "effect_or_behavior": "Eaten: burp sound + smoke, minecraft:fire_resistance 30s, and 1-in-3 chance to burp up 1 coal at your feet — exactly Stinky's canon front-burp (verified ENT-S-033: front burp = coal). Right-clicked on a tamed Stinky instead: he devours it and fires 2-4 immediate burp/fart cycles using his existing drop logic.",
+  "feasibility": "light-code",
+  "score_reason": "Three overlapping Stinky pitches merged into one item with a dual verb: player food that refunds fuel, and pet food that turns Stinky into an on-demand burping coal generator. Canon-verified, all existing behavior, maximum alive-world payoff."
+ },
+ {
+  "name": "Chum Bucket",
+  "lens": "living_world",
+  "concept": "A sloshing bucket of ground fish you hurl into the ocean; every sea horror in range forgets you exist and races to the splash point. OreSpawn oceans finally get a tool that isn't a bigger sword.",
+  "ingredients": "minecraft:bucket + orespawn:grey_fish + orespawn:blue_fish + orespawn:raw_crab_meat + orespawn:green_goo (all verified)",
+  "effect_or_behavior": "Snowball-style thrown entity. On water impact: red particle cloud; hammerhead, sea_viper, attack_squid, urchin, and briefly kraken (all verified entities) within ~24 blocks clear targets and path to the splash for ~20s. Pure decoy, no damage.",
+  "feasibility": "light-code",
+  "score_reason": "First item that manipulates the murder-ocean instead of fighting it — chum one side of the bay, loot the water_dragon_lair on the other. Emergent gameplay from one projectile plus a retarget loop."
+ },
+ {
+  "name": "Battle-Tower Cheese Wheel",
+  "lens": "living_world",
+  "concept": "A full wheel of cheese cut into six wedges. Dungeon rats — normally a shrieking swarm — drop aggro and gather round to feast while you walk past the buffet.",
+  "ingredients": "orespawn:cheese x4 + orespawn:salt (verified; rat entity verified)",
+  "effect_or_behavior": "Placed cake-style block with 6 wedge states. rats within ~12 blocks clear target, path to the wheel, and nibble a wedge per visit (squeak + eat sound); rats stay passive while wedges remain. Players can eat wedges too.",
+  "feasibility": "light-code",
+  "score_reason": "Turns battle-tower rat floors from bullet-hell into a pest-control puzzle, gives the near-useless cheese item a career, and a mid-fight rat buffet is exactly the alive-world energy the brief asked for. Beat the near-identical ant Sugar Lump for the bait-block slot."
+ },
+ {
+  "name": "Dino Dog Grande",
+  "lens": "living_world",
+  "concept": "A meter-long corn dog skewered on a trex_tooth, built to bribe the apex predator itself. A T-Rex will pause mid-charge to eat you a truce.",
+  "ingredients": "orespawn:corn_dog x3 + orespawn:cooked_bacon + orespawn:trex_tooth (all verified; trex/alosaurus/baryonyx entities verified)",
+  "effect_or_behavior": "Used on (or thrown near) a trex: gulp sound, eating particles, it clears its target and won't re-target the feeder for ~60s (LivingChangeTarget handler + persistent-data timestamp). alosaurus/baryonyx accept it for a shorter truce.",
+  "feasibility": "light-code",
+  "score_reason": "Walking through Chaos-dim dino country with a pocket of bribes instead of armor is a genuinely new survival strategy, and the screenshot of a T-Rex eating a corn dog markets the whole expansion by itself."
+ },
+ {
+  "name": "Heart-Box Chocolates",
+  "lens": "living_world (merged with mod_absurdity Valentine's Box)",
+  "concept": "A gift box of chocolates built around a real orespawn:heart. Your tamed Girlfriend or Boyfriend reacts — and a few minutes later cooks something back for you. On February 14th it has one more, much more important use.",
+  "ingredients": "orespawn:heart + minecraft:cocoa_beans + orespawn:strawberry + orespawn:cherries (all verified)",
+  "effect_or_behavior": "Gifting a tamed companion: heart particles + happy line, giver gets minecraft:regeneration I 30s; a 2-5 min delayed task has them hand back a random shipped dish ('I made this for you!'). Gifting someone else's companion triggers the existing jealousy. On Feb 14, using it on the giant Valentine Girlfriend rolls the same ~1-in-4 calm chance as a rose_sword hit (rose_sword verified) — de-escalating the event with candy instead of violence.",
+  "feasibility": "light-code",
+  "score_reason": "Merges the two chocolate pitches into the pack's emotional centerpiece: companions become participants in the food mod (cooking FOR you — explicitly rule-legal), and 'you can now resolve Valentine's Day with chocolate' is the patch note of the year."
+ },
+ {
+  "name": "Caramel Mash",
+  "lens": "living_world",
+  "concept": "Buttery caramelized apple feed for the apple cow family. Feeding one makes it produce its signature apple on the spot — milking, but for apples, scaling all the way up to the enchanted jackpot.",
+  "ingredients": "minecraft:sugar + minecraft:apple + orespawn:butter (verified; apple_cow / golden_apple_cow / enchanted_apple_cow entities all verified)",
+  "effect_or_behavior": "Right-click feed: apple_cow instantly drops an apple (happy moo + hearts); golden_apple_cow drops a golden apple on a 5-min cooldown; enchanted_apple_cow drops an enchanted golden apple on a 20-min cooldown with fanfare. Cooldowns in entity persistent data.",
+  "feasibility": "light-code",
+  "score_reason": "Converts iconic passive loot-pinatas into ranchable livestock with a real late-game farm loop. One interact handler, three tiers of payoff, and the world's dumbest cows finally earn their keep."
+ },
+ {
+  "name": "Butter Pat",
+  "lens": "living_world",
+  "concept": "A pat of butter slapped directly onto the floor as a thin, treacherously slippery plate. Anything that walks on it — mob, player, Stinky — skates.",
+  "ingredients": "orespawn:butter x2, yields 4 pats (verified)",
+  "effect_or_behavior": "Carpet-height block registered with ice-tier friction (0.98) — a pure block property, no handlers. Despawns in the Nether or next to fire, because it is butter.",
+  "feasibility": "item-only",
+  "score_reason": "The cheapest slapstick machine in the pool: butter a hallway and watch a velocity_raptor overshoot the corner. Honors OreSpawn's canonical butter obsession at effectively zero implementation cost."
+ },
+ {
+  "name": "Lava Eel Hotpot",
+  "lens": "dimension_terroir",
+  "concept": "Mining Dimension delicacy simmered in the dimension's own surface lava lakes (lake_lava_dim is a verified native feature): lava eel with rice and radish until the broth itself keeps glowing.",
+  "ingredients": "orespawn:lava_eel + orespawn:rice + orespawn:radish + orespawn:salt, FD cooking pot (all verified; raw lava_eel's 60s fire resistance confirmed in audit docs, ItemLavaEel 600t)",
+  "effect_or_behavior": "minecraft:fire_resistance 5:00 + high nutrition, via plain FoodProperties — a proper upgrade over the raw eel's verified 60s.",
+  "feasibility": "item-only",
+  "score_reason": "Rescues a verified-but-forgettable fish into the exact food you want in a dimension with lava lakes at surface level. Grounded terroir, zero code, real utility."
+ },
+ {
+  "name": "Petrifying Basilisk Ramen",
+  "lens": "dimension_terroir (merged with power_fantasy Basilisk Scale Crackling)",
+  "concept": "Chaos Dimension street ramen: rich chicken broth (basilisk verifiably drops chicken — it tastes like chicken, it IS a basilisk) topped with a shaved basilisk_scale that briefly turns your skin to stone.",
+  "ingredients": "minecraft:chicken + orespawn:basilisk_scale + orespawn:rice + minecraft:egg, FD cooking pot (all verified)",
+  "effect_or_behavior": "minecraft:slowness III 0:10 + minecraft:resistance II 3:00 applied together: ten seconds of statue-slow near-unhittable tank stance, then the stone wears off and resistance lingers. Stock FoodProperties, no code.",
+  "feasibility": "item-only",
+  "score_reason": "A petrification mechanic faked entirely with two vanilla effects — eating it mid-fight is a real tactical decision. Absorbed the redundant basilisk crackling; this is the stronger, funnier form."
+ },
+ {
+  "name": "Vortex Dango",
+  "lens": "dimension_terroir (merged with power_fantasy Vortex Eye Gumbo)",
+  "concept": "Chaos Dimension street food: three glazed vortex eyes on a skewer, still faintly rotating. The vendor will not make eye contact, which is impressive given the merchandise.",
+  "ingredients": "orespawn:vortex_eye + minecraft:sugar + minecraft:stick (all verified; vortex entity verified)",
+  "effect_or_behavior": "minecraft:nausea 0:10 + best-in-mod saturation + minecraft:speed II 2:00, then a chorus-fruit-style random teleport (~15-line LivingEntityUseItemEvent.Finish handler copied from ChorusFruitItem) with portal particles. You ate the eye of a teleporting mob; you teleport.",
+  "feasibility": "light-code",
+  "score_reason": "The one flashy-behavior food of the set and a fair bargain: top-tier saturation, but eat it BEFORE the boss fight or the dimension decides where you stand. Beat the gumbo version on flavor writing and fully-verified ingredients."
+ },
+ {
+  "name": "Cliff Racer Hot Wings",
+  "lens": "dimension_terroir (merged with power_fantasy Velocity Raptor Hot Wings)",
+  "concept": "Islands Dimension revenge cuisine: buffalo wings made from the sky dimension's most hated pest, glazed in a fire_fish-and-tomato hot sauce. Kill the pest, eat the pest, borrow its one skill.",
+  "ingredients": "new 'cliff racer wing' drop GLM-injected into orespawn:cliff_racer's loot (pure JSON via the port's established neoforge:add_table pattern; cliff_racer verified and already drops chicken, so wings are canon) + orespawn:fire_fish + orespawn:tomato, FD skillet (all verified)",
+  "effect_or_behavior": "minecraft:slow_falling 1:30 + minecraft:speed I 1:00 — exactly what you want on a sky-island dimension with lethal edges.",
+  "feasibility": "item-only",
+  "score_reason": "Every Islands player already hates cliff racers, so this is the most satisfying loop in the expansion, and slow-fall wings on the fall-damage dimension is perfect terroir. One wings item per pack; this beat the raptor version."
+ },
+ {
+  "name": "Sunday Pot Roast",
+  "lens": "dimension_terroir",
+  "concept": "Village Dimension home cooking as the expansion's feast block: a whole pot roast with corn, tomato, and radish set out on the table while robots and Godzilla wander the cul-de-sac outside. Suburbia under siege, dinner at six sharp.",
+  "ingredients": "minecraft:beef + orespawn:corn_cob + orespawn:tomato + orespawn:radish (all verified; wild corn/tomato generate in village_biome per verified placed features), FD cooking pot then placeable feast",
+  "effect_or_behavior": "Standard FarmersDelight FeastBlock subclass with a servings blockstate (the pattern this addon already shipped three times). Each of 4 knife-carved servings: solid nutrition + farmersdelight:comfort 5:00.",
+  "feasibility": "light-code",
+  "score_reason": "The Village dim's whole personality is a family dinner ignoring the kaiju outside — a fourth feast block on a fully solved code pattern, and the single most 'world feels inhabited' item in the set."
+ },
+ {
+  "name": "Jumpy Bug Gummies",
+  "lens": "power_fantasy",
+  "concept": "Trooper-bug scales melted with sugar into springy gummies. Eat a handful and you bounce over Battle Tower walls like the bugs that infest them — but the scales keep twitching on the way down, giving you the hiccups.",
+  "ingredients": "orespawn:jumpy_bug_scale + minecraft:sugar + minecraft:slime_ball + orespawn:strawberry (all verified; trooper_bug entity verified)",
+  "effect_or_behavior": "minecraft:jump_boost IV 90s + minecraft:slow_falling 90s. Cost: a short 'hiccups' player tag — every 200-300 ticks a hiccup sound + ~0.35 upward pop while it lasts. Drop the hiccups and the whole item goes item-only.",
+  "feasibility": "light-code",
+  "score_reason": "OreSpawn terrain is built at giant scale, so superjump is the power fantasy that actually fits the world — and an involuntary hiccup-hop mid-bridge is pure CrazyCraft comedy with a built-in scope dial."
+ },
+ {
+  "name": "Fairy Floss",
+  "lens": "power_fantasy",
+  "concept": "Cotton candy spun from sugar and a crystal-dimension flower, the way fairies allegedly make it. You briefly forget how gravity works.",
+  "ingredients": "minecraft:sugar x2 + orespawn:crystal_flower_blue (verified crystal_plains block)",
+  "effect_or_behavior": "minecraft:levitation 0:05 + minecraft:slow_falling 0:45 applied simultaneously — levitation expires first, so you float up ~8 blocks then drift gently down. A scripted-feeling two-phase launch from pure FoodProperties.",
+  "feasibility": "item-only",
+  "score_reason": "The cleverest zero-code trick in the pool: effect-duration sequencing as a self-yeet elevator. Cheap, absurd, useful for leonopteryx-nest looting, and it gives the decorative crystal flowers a job."
+ },
+ {
+  "name": "Irukandji Shooter",
+  "lens": "power_fantasy",
+  "concept": "The world's most venomous jellyfish, served raw in a brine shot. Survive the sting and the adrenaline is unbeatable; don't, and dinner fights back.",
+  "ingredients": "orespawn:dead_irukandji + minecraft:glass_bottle + orespawn:salt (all verified)",
+  "effect_or_behavior": "One random roll in finishUsingItem: 60% -> minecraft:strength II + minecraft:speed II 90s ('survived the sting'); 40% -> minecraft:poison II 10s + minecraft:nausea 15s + minecraft:blindness 5s. Tiny custom item class for the exclusive branches.",
+  "feasibility": "light-code",
+  "score_reason": "The definitive bar-dare food: players will chug these in front of friends before boss fights, and the fail state is loud, visible, and hilarious. Won the venom-gamble slot over the deterministic scorpion skewer."
+ },
+ {
+  "name": "Luna Moth Dust Macarons",
+  "lens": "power_fantasy",
+  "concept": "Delicate macarons dusted with ground Luna Moth scales. You drift like a moth — and if you die anyway, you leave a silk cocoon.",
+  "ingredients": "orespawn:moth_scale + minecraft:sugar + minecraft:egg (all verified; swapped from the pitch's unverifiable orespawn_delight:ostrich_egg — use the shipped ostrich egg instead if it exists)",
+  "effect_or_behavior": "minecraft:slow_falling 5:00 + minecraft:jump_boost II 5:00 + minecraft:weaving 2:00 (fast in cobwebs, cobwebs on death — the moth-silk pun). All plain FoodProperties.",
+  "feasibility": "item-only",
+  "score_reason": "Weaving is the most underused 1.21 effect and this is its perfect dark joke: your death site becomes a cocoon. Step off a Battle Tower roof and flutter down — elegant, absurd, zero code."
+ }
+]

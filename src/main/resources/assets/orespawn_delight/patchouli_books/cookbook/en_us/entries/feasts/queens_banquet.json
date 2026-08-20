@@ -1,0 +1,18 @@
+{
+  "name": "Queen's Banquet",
+  "icon": "orespawn_delight:queens_banquet",
+  "category": "orespawn_delight:feasts",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:queens_banquet",
+      "text": "The Queen of the hive guards her dimension with fifty-six cuts of royal meat on the bone. The $(item)Queen's Banquet$() is the polite thing to do with regicide."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fit for a Court",
+      "text": "Set the banquet at the head of the table and carve four servings for whoever helped — or for yourself, four times, because the Queen did not go quietly.$(p)Pairs well with anything from the $(l:orespawn_delight:the_kitchen/the_cooking_pot)Cooking Pot$() and a locked front door."
+    }
+  ]
+}

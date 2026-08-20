@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "h": {
+      "item": "orespawn:bertha_handle"
+    },
+    "s": {
+      "item": "orespawn:salt"
+    }
+  },
+  "pattern": [
+    "pp",
+    "pp",
+    "hs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:hammy"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:foods/raw_meat"
+      },
+      "subtracted": {
+        "tag": "c:foods/raw_pork"
+      }
+    },
+    {
+      "item": "orespawn:salt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:salted_jerky"
+  }
+}

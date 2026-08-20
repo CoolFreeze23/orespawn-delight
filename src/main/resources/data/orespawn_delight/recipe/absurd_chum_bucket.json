@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "orespawn:grey_fish"
+    },
+    {
+      "item": "orespawn:blue_fish"
+    },
+    {
+      "item": "orespawn:raw_crab_meat"
+    },
+    {
+      "item": "orespawn:green_goo"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:chum_bucket"
+  }
+}

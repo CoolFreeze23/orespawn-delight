@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_meat"
+    },
+    {
+      "item": "orespawn:corn_cob"
+    },
+    {
+      "item": "orespawn:tomato"
+    },
+    {
+      "item": "orespawn:radish"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:sunday_pot_roast"
+  }
+}

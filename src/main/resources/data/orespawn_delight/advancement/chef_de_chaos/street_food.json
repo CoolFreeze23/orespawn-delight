@@ -1,0 +1,63 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/first_dino_meat",
+  "criteria": {
+    "dino_dog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:dino_dog"
+          }
+        ]
+      }
+    },
+    "kraken_dog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:kraken_dog"
+          }
+        ]
+      }
+    },
+    "sea_viper_skewer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:sea_viper_skewer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dino_dog"
+    ],
+    [
+      "kraken_dog"
+    ],
+    [
+      "sea_viper_skewer"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:dino_dog"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.street_food.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.street_food.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

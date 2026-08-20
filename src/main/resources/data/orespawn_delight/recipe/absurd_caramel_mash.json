@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "orespawn:butter"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:caramel_mash"
+  }
+}

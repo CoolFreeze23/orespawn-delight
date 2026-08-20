@@ -1,0 +1,18 @@
+{
+  "name": "Green Thumb",
+  "icon": "orespawn:tomato_seed",
+  "category": "orespawn_delight:field_guide",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Seeds Work Now",
+      "text": "OreSpawn's crop seeds — $(item)corn$(), $(item)tomato$(), $(item)lettuce$(), $(item)radish$(), $(item)rice$(), $(item)quinoa$(), and $(item)strawberry$() — plant on farmland like any honest seed. Till, water, plant, wait.$(p)Harvested crops craft back into seeds, so one wild find seeds a whole field."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Foraging Map",
+      "text": "No seeds yet? The wild supplies: $(item)wild corn$() and $(item)wild tomatoes$() dot the plains, $(item)wild strawberries$() hide in forests, and river and swamp banks grow the odd $(item)veggie patch$() of radish and lettuce.$(p)$(item)Rice$() and $(item)quinoa$() grow only in the Crystal Dimension — the same glittering place the $(l:orespawn_delight:the_butcher/tigers_eye_knife)Tiger's Eye$() comes from."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/nuclear_snack",
+  "criteria": {
+    "has_yellowcake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:yellowcake"
+          }
+        ]
+      }
+    },
+    "ate_irradiated_jerky": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:irradiated_jerky"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellowcake"
+    ],
+    [
+      "ate_irradiated_jerky"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:yellowcake"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.absurd.nuclear_connoisseur.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.absurd.nuclear_connoisseur.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

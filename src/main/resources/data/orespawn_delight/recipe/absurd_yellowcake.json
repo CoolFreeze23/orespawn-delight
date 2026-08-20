@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "orespawn:butter"
+    },
+    "u": {
+      "item": "orespawn:uranium_nugget"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "e": {
+      "tag": "c:eggs"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "bub",
+    "ses",
+    "www"
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:yellowcake"
+  }
+}

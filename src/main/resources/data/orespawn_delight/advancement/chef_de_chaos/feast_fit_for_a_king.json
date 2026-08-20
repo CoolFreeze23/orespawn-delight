@@ -1,0 +1,66 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/knifes_edge",
+  "criteria": {
+    "rex_roast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:rex_roast"
+          }
+        ]
+      }
+    },
+    "mobzilla_feast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:mobzilla_feast"
+          }
+        ]
+      }
+    },
+    "queens_banquet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:queens_banquet"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rex_roast"
+    ],
+    [
+      "mobzilla_feast"
+    ],
+    [
+      "queens_banquet"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:rex_roast"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.feast_fit_for_a_king.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.feast_fit_for_a_king.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false,
+  "rewards": {
+    "experience": 100
+  }
+}

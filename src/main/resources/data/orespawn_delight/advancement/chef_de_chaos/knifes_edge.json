@@ -1,0 +1,37 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/root",
+  "criteria": {
+    "has_tigers_eye_knife": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:tigers_eye_knife"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tigers_eye_knife"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:tigers_eye_knife"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.knifes_edge.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.knifes_edge.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "orespawn_delight:block/cheese_wheel_side",
+    "bottom": "orespawn_delight:block/cheese_wheel_bottom",
+    "top": "orespawn_delight:block/cheese_wheel_top",
+    "side": "orespawn_delight:block/cheese_wheel_side",
+    "inside": "orespawn_delight:block/cheese_wheel_inner"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        5,
+        15
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#inside"
+        },
+        "east": {
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}

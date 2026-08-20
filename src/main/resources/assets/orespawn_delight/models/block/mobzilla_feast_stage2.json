@@ -1,0 +1,468 @@
+{
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "tray": "farmersdelight:block/tray",
+    "tray_bottom": "farmersdelight:block/tray_bottom",
+    "leftovers": "orespawn_delight:block/mobzilla_feast_leftovers",
+    "main": "orespawn_delight:block/mobzilla_feast",
+    "details": "orespawn_delight:block/mobzilla_feast_details",
+    "particle": "orespawn_delight:block/mobzilla_feast"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "east": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "west": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#leftovers"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tray_bottom",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "north_edge",
+      "from": [
+        2,
+        1,
+        1
+      ],
+      "to": [
+        14,
+        2,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            2,
+            0,
+            14,
+            1
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "south_edge",
+      "from": [
+        2,
+        1,
+        14
+      ],
+      "to": [
+        14,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            2,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            2,
+            13,
+            14,
+            14
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "west_edge",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        2,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            2,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            1,
+            0,
+            2,
+            14
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "east_edge",
+      "from": [
+        14,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            2,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "south": {
+          "uv": [
+            14,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tray"
+        },
+        "up": {
+          "uv": [
+            14,
+            0,
+            15,
+            14
+          ],
+          "texture": "#tray"
+        }
+      }
+    },
+    {
+      "name": "base_slab",
+      "from": [
+        3,
+        1,
+        3
+      ],
+      "to": [
+        13,
+        4,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            3
+          ],
+          "texture": "#main"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            3
+          ],
+          "texture": "#main"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10,
+            3
+          ],
+          "texture": "#main"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10,
+            3
+          ],
+          "texture": "#main"
+        },
+        "up": {
+          "uv": [
+            0,
+            3,
+            10,
+            13
+          ],
+          "texture": "#main"
+        }
+      }
+    },
+    {
+      "name": "cheese",
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            8,
+            8,
+            9
+          ],
+          "texture": "#details"
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            8,
+            9
+          ],
+          "texture": "#details"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            8,
+            9
+          ],
+          "texture": "#details"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            8,
+            9
+          ],
+          "texture": "#details"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "texture": "#details"
+        }
+      }
+    },
+    {
+      "name": "cheese_wedge",
+      "from": [
+        2,
+        1,
+        12
+      ],
+      "to": [
+        4,
+        3,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": "#details"
+        },
+        "south": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": "#details"
+        },
+        "east": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": "#details"
+        },
+        "west": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": "#details"
+        },
+        "up": {
+          "uv": [
+            12,
+            10,
+            14,
+            12
+          ],
+          "texture": "#details"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/green_thumb",
+  "criteria": {
+    "dino_stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:dino_stew"
+          }
+        ]
+      }
+    },
+    "whale_chowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:whale_chowder"
+          }
+        ]
+      }
+    },
+    "shark_fin_soup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:shark_fin_soup"
+          }
+        ]
+      }
+    },
+    "ink_black_pasta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:ink_black_pasta"
+          }
+        ]
+      }
+    },
+    "jellyfish_salad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:jellyfish_salad"
+          }
+        ]
+      }
+    },
+    "quinoa_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "orespawn_delight:quinoa_bowl"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dino_stew"
+    ],
+    [
+      "whale_chowder"
+    ],
+    [
+      "shark_fin_soup"
+    ],
+    [
+      "ink_black_pasta"
+    ],
+    [
+      "jellyfish_salad"
+    ],
+    [
+      "quinoa_bowl"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:dino_stew"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.soup_kitchen.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.soup_kitchen.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false,
+  "rewards": {
+    "experience": 100
+  }
+}

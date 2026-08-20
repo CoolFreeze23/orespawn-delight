@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "orespawn:dead_stink_bug"
+    },
+    {
+      "item": "orespawn:tomato"
+    },
+    {
+      "item": "orespawn:corn_cob"
+    },
+    {
+      "item": "orespawn:salt"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:burp_back_chili"
+  }
+}

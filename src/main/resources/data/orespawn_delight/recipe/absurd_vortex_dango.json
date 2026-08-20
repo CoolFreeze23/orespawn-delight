@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "item": "orespawn:vortex_eye"
+    },
+    "g": {
+      "item": "minecraft:sugar"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "eee",
+    " g ",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:vortex_dango"
+  }
+}

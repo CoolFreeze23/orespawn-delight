@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn_delight:salted_jerky"
+    },
+    {
+      "item": "orespawn:uranium_nugget"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:irradiated_jerky"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "The Snack Cart",
+  "icon": "orespawn_delight:dino_dog",
+  "category": "orespawn_delight:the_kitchen",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:dino_dog",
+      "recipe2": "orespawn_delight:kraken_dog",
+      "title": "Dogs",
+      "text": "A patty or a tentacle, a stick, and any corn the pack grows — that's a $(item)Dino Dog$() or a $(item)Kraken Dog$(). Fair food for a world that is, itself, unfair."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:sea_viper_skewer",
+      "recipe2": "orespawn_delight:strawberry_shortcake",
+      "title": "Skewers & Sweets",
+      "text": "The $(item)Sea Viper Skewer$() grants real strength with a small chance of residual venom. Balance the risk with $(item)Strawberry Shortcake$() — nine strawberries, milk, and a pie crust."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "orespawn_delight:fried_stink_bug",
+      "text": "$(item)Fried Stink Bug$() — a dead stink bug, crisped in butter in the cooking pot. A delicacy in several real cuisines and now, regrettably, in yours."
+    }
+  ]
+}

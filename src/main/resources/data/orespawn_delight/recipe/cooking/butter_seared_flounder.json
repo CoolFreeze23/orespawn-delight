@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "orespawn_delight:raw_flounder_fillet"
+    },
+    {
+      "item": "orespawn:butter"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:butter_seared_flounder"
+  }
+}

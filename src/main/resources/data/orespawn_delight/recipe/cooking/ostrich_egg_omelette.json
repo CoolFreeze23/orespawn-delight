@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "orespawn_delight:ostrich_egg"
+    },
+    {
+      "item": "orespawn:butter"
+    },
+    {
+      "item": "orespawn:cheese"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:ostrich_egg_omelette"
+  }
+}

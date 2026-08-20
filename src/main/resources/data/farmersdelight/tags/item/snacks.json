@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "orespawn_delight:grilled_cheese",
+    "orespawn_delight:mobzilla_burger",
+    "orespawn_delight:crab_roll",
+    "orespawn_delight:shark_sandwich",
+    "orespawn_delight:peacock_club_sandwich",
+    "orespawn_delight:dino_dog",
+    "orespawn_delight:kraken_dog",
+    "orespawn_delight:kraken_nigiri",
+    "orespawn_delight:flounder_roll",
+    "orespawn_delight:irukandji_roll",
+    "orespawn_delight:sea_viper_skewer",
+    "orespawn_delight:fried_stink_bug",
+    "orespawn_delight:calamari_rings",
+    "orespawn_delight:crabby_patty_deluxe",
+    "orespawn_delight:salted_jerky",
+    "orespawn_delight:irradiated_jerky"
+  ]
+}

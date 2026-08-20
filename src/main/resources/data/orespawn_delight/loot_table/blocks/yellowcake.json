@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "block": "orespawn_delight:yellowcake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orespawn_delight:yellowcake"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "orespawn_delight:blocks/yellowcake"
+}

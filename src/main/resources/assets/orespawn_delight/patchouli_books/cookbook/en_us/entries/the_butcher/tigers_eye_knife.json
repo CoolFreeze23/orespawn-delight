@@ -1,0 +1,19 @@
+{
+  "name": "Tiger's Eye Knife",
+  "icon": "orespawn_delight:tigers_eye_knife",
+  "category": "orespawn_delight:the_butcher",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "orespawn_delight:tigers_eye_knife",
+      "title": "Tiger's Eye Knife",
+      "text": "Banded gold from the Crystal Dimension, ground to an edge. Ingot over stick, same as every knife since the first one."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Why Carry One",
+      "text": "A knife is the butcher's whole trade: it works the $(item)Cutting Board$(), and beasts felled with one in hand give up cuts they would otherwise keep — bonus fillets, tentacles, the good parts.$(p)The Tiger's Eye edge outlasts iron, takes enchantments eagerly, and repairs with $(item)Tiger's Eye Ingots$() — glittering considerably harder than a kitchen tool needs to."
+    }
+  ]
+}

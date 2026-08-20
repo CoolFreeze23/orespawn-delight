@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "orespawn:jumpy_bug_scale"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "orespawn:strawberry"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "orespawn_delight:jumpy_bug_gummies"
+  }
+}

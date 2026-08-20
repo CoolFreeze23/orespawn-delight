@@ -1,0 +1,324 @@
+{
+  "parent": "orespawn_delight:chef_de_chaos/feast_fit_for_a_king",
+  "criteria": {
+    "ate_calamari_rings": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:calamari_rings"
+        }
+      }
+    },
+    "ate_ink_black_pasta": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:ink_black_pasta"
+        }
+      }
+    },
+    "ate_crabby_patty_deluxe": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:crabby_patty_deluxe"
+        }
+      }
+    },
+    "ate_dino_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:dino_stew"
+        }
+      }
+    },
+    "ate_frog_leg_platter": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:frog_leg_platter"
+        }
+      }
+    },
+    "ate_butter_seared_flounder": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:butter_seared_flounder"
+        }
+      }
+    },
+    "ate_buttered_skate_wing": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:buttered_skate_wing"
+        }
+      }
+    },
+    "ate_whale_chowder": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:whale_chowder"
+        }
+      }
+    },
+    "ate_shark_fin_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:shark_fin_soup"
+        }
+      }
+    },
+    "ate_ostrich_egg_omelette": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:ostrich_egg_omelette"
+        }
+      }
+    },
+    "ate_cassowary_drumstick": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:cassowary_drumstick"
+        }
+      }
+    },
+    "ate_venison_medallions": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:venison_medallions"
+        }
+      }
+    },
+    "ate_jellyfish_salad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:jellyfish_salad"
+        }
+      }
+    },
+    "ate_fried_stink_bug": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:fried_stink_bug"
+        }
+      }
+    },
+    "ate_sea_viper_skewer": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:sea_viper_skewer"
+        }
+      }
+    },
+    "ate_grilled_cheese": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:grilled_cheese"
+        }
+      }
+    },
+    "ate_mobzilla_burger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:mobzilla_burger"
+        }
+      }
+    },
+    "ate_crab_roll": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:crab_roll"
+        }
+      }
+    },
+    "ate_shark_sandwich": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:shark_sandwich"
+        }
+      }
+    },
+    "ate_peacock_club_sandwich": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:peacock_club_sandwich"
+        }
+      }
+    },
+    "ate_dino_dog": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:dino_dog"
+        }
+      }
+    },
+    "ate_kraken_dog": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:kraken_dog"
+        }
+      }
+    },
+    "ate_kraken_nigiri": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:kraken_nigiri"
+        }
+      }
+    },
+    "ate_flounder_roll": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:flounder_roll"
+        }
+      }
+    },
+    "ate_irukandji_roll": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:irukandji_roll"
+        }
+      }
+    },
+    "ate_strawberry_shortcake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:strawberry_shortcake"
+        }
+      }
+    },
+    "ate_quinoa_bowl": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "orespawn_delight:quinoa_bowl"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_calamari_rings"
+    ],
+    [
+      "ate_ink_black_pasta"
+    ],
+    [
+      "ate_crabby_patty_deluxe"
+    ],
+    [
+      "ate_dino_stew"
+    ],
+    [
+      "ate_frog_leg_platter"
+    ],
+    [
+      "ate_butter_seared_flounder"
+    ],
+    [
+      "ate_buttered_skate_wing"
+    ],
+    [
+      "ate_whale_chowder"
+    ],
+    [
+      "ate_shark_fin_soup"
+    ],
+    [
+      "ate_ostrich_egg_omelette"
+    ],
+    [
+      "ate_cassowary_drumstick"
+    ],
+    [
+      "ate_venison_medallions"
+    ],
+    [
+      "ate_jellyfish_salad"
+    ],
+    [
+      "ate_fried_stink_bug"
+    ],
+    [
+      "ate_sea_viper_skewer"
+    ],
+    [
+      "ate_grilled_cheese"
+    ],
+    [
+      "ate_mobzilla_burger"
+    ],
+    [
+      "ate_crab_roll"
+    ],
+    [
+      "ate_shark_sandwich"
+    ],
+    [
+      "ate_peacock_club_sandwich"
+    ],
+    [
+      "ate_dino_dog"
+    ],
+    [
+      "ate_kraken_dog"
+    ],
+    [
+      "ate_kraken_nigiri"
+    ],
+    [
+      "ate_flounder_roll"
+    ],
+    [
+      "ate_irukandji_roll"
+    ],
+    [
+      "ate_strawberry_shortcake"
+    ],
+    [
+      "ate_quinoa_bowl"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "orespawn_delight:queens_banquet"
+    },
+    "title": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.five_star_chaos.title"
+    },
+    "description": {
+      "translate": "advancements.orespawn_delight.chef_de_chaos.five_star_chaos.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "sends_telemetry_event": false,
+  "rewards": {
+    "experience": 500
+  }
+}
